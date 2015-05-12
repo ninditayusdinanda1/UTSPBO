@@ -1,0 +1,10 @@
+public class KENDARAAN {
+    public int kecepatanMask;
+    public int berat;
+    public int kapasitas;
+
+    public KENDARAAN() {
+        kecepatanMask = 20;
+        System.out.println("KECEPATAN MAKSIMAL =" + kecepatanMask);
+    }
+}

@@ -1,0 +1,20 @@
+public class mobil  extends KENDARAAN {
+    public int jumlahroda;
+    public mobil(int kcptn, int brt, int kpsts, int jr){
+        kecepatanMask = kcptn;
+        berat = brt;
+        kapasitas=kpsts;
+        jumlahroda=jr;
+    }
+    public void cetakspesifikasi (){
+        System.out.println("kecepatan maksimal mobil="+kecepatanMask);
+        System.out.println("berat mobil="+berat);
+        System.out.println("kapasitas mobil="+kapasitas);
+        System.out.println("jumlah roda="+jumlahroda+"\n");
+    }
+    public void panggilan(int kcptn){
+        kecepatanMask=kcptn;
+        System.out.println("mobil dijalankan dengan kecepatan "+kecepatanMask);
+    }
+}
+

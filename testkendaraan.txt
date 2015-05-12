@@ -1,0 +1,14 @@
+/**
+ * Created by Nin on 12/05/2015.
+ */
+public class testkendaraan {
+        public static void main(String[] args)
+        {
+            mobil porsche = new mobil(200, 5000, 2, 4);
+            porsche.cetakspesifikasi();
+            porsche.panggilan(100);
+            porsche.panggilan(180);
+        }
+    }
+
+
